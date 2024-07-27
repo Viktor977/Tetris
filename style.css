@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(90deg, red, orange);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tetris {
+  border: 5px solid orange;
+ display: grid;
+ grid-template-columns: repeat(10, auto);
+
+}
+
+.tetris div {
+  height: min(4vh, 7vw);
+  width: min(4vh, 7vw);
+  background: rgba(62, 106, 44, 0.352);
+  box-shadow: inset 2px 2px 2px black, inset -2px -2px 2px blue;
+}
